@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import Layout from "./layout/Layout";
+import SplashScreen from "./components/SplashScreen";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Products from "./pages/Products";
@@ -11,6 +12,7 @@ import Contact from "./pages/Contact";
 export default function App() {
   return (
     <HelmetProvider>
+      <SplashScreen />
       <BrowserRouter>
         <Routes>
           <Route element={<Layout />}>
