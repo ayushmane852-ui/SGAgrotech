@@ -1,6 +1,6 @@
 export const faqItems = [
   {
-    question: "What products does S.G. Enterprises supply?",
+    question: "What products does S.G. Agrotech supply?",
     answer: "We supply garden pipes, tadpatri/tarpaulin, nylon and reshim dori, PVC cocks, UPVC pipes, murghas bags, culture powder, green/coloured/safety nets, and other hardware and agricultural utility materials.",
   },
   {

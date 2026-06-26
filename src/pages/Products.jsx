@@ -13,7 +13,7 @@ export default function Products() {
     <>
       <SEO
         title="Products"
-        description="Browse hardware and agricultural products from S.G. Enterprises — garden pipes, tadpatri, dori, PVC cocks, UPVC pipes, murghas bags, nets, and more."
+        description="Browse hardware and agricultural products from S.G. Agrotech — garden pipes, tadpatri, dori, PVC cocks, UPVC pipes, murghas bags, nets, and more."
       />
       <PageHero
         title="Our Products"
@@ -25,7 +25,7 @@ export default function Products() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-light-bg rounded-2xl p-6 mb-8 border border-border-gray">
             <p className="text-gray-600 text-center max-w-3xl mx-auto">
-              S.G. Enterprises supplies a comprehensive range of hardware and
+              S.G. Agrotech supplies a comprehensive range of hardware and
               agricultural utility materials. Browse our products below and contact
               us for availability, rates, and bulk supply enquiries.
             </p>

@@ -1,9 +1,9 @@
 import { Helmet } from "react-helmet-async";
+import { siteConfig } from "../data/siteConfig";
 
 export default function SEO({ title, description }) {
-  const fullTitle = title.includes("S.G. Enterprises")
-    ? title
-    : `${title} | S.G. Enterprises`;
+  const brandName = siteConfig.name;
+  const fullTitle = title.includes(brandName) ? title : `${title} | ${brandName}`;
 
   return (
     <Helmet>

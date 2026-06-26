@@ -32,7 +32,7 @@ export default function Gallery() {
     <>
       <SEO
         title="Gallery"
-        description="View our product and supply gallery — pipes, tarpaulin, nets, dori, PVC items, murghas bags, and warehouse visuals from S.G. Enterprises."
+        description="View our product and supply gallery — pipes, tarpaulin, nets, dori, PVC items, murghas bags, and warehouse visuals from S.G. Agrotech."
       />
       <PageHero
         title="Gallery"

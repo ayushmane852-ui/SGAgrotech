@@ -45,7 +45,7 @@ export default function Navbar() {
             )}
             <div>
               <span className="font-bold text-lg text-charcoal block leading-tight">
-                S.G. Enterprises
+                S.G. Agrotech
               </span>
               <span className="text-xs text-gray-500 hidden sm:block">
                 Hardware & Agri Supply

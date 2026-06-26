@@ -1,23 +1,43 @@
 import { useState } from "react";
-import { Send } from "lucide-react";
+import { Send, MessageCircle } from "lucide-react";
 import Button from "./Button";
+import { siteConfig } from "../data/siteConfig";
 
 export default function ContactForm({ compact = false }) {
   const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const formData = new FormData(e.currentTarget);
+    const name = formData.get("name");
+    const phone = formData.get("phone");
+    const product = formData.get("product") || "Not specified";
+    const message = formData.get("message") || "Not specified";
+
+    const enquiryText = [
+      `Hello, I have an enquiry from ${siteConfig.name} website:`,
+      "",
+      `Name: ${name}`,
+      `Phone: ${phone}`,
+      `Product Requirement: ${product}`,
+      `Message: ${message}`,
+    ].join("\n");
+
+    const whatsappUrl = `https://wa.me/${siteConfig.whatsapp}?text=${encodeURIComponent(enquiryText)}`;
+    window.open(whatsappUrl, "_blank", "noopener,noreferrer");
     setSubmitted(true);
   };
 
   if (submitted) {
     return (
       <div className="bg-green-50 border border-green-200 rounded-xl p-8 text-center">
+        <MessageCircle className="w-10 h-10 text-[#25D366] mx-auto mb-3" />
         <p className="text-primary-green font-semibold text-lg mb-2">
-          Thank you for your enquiry!
+          Enquiry sent to WhatsApp!
         </p>
         <p className="text-gray-600 text-sm">
-          We will get back to you shortly. For urgent queries, please call or WhatsApp us.
+          Your enquiry has been opened in WhatsApp. Send the message to complete
+          your enquiry, or call us for urgent queries.
         </p>
       </div>
     );
@@ -79,7 +99,7 @@ export default function ContactForm({ compact = false }) {
       </div>
       <Button type="submit" variant="primary" className="w-full md:w-auto">
         <Send className="w-4 h-4" />
-        Send Enquiry
+        Send Enquiry via WhatsApp
       </Button>
     </form>
   );

@@ -17,7 +17,7 @@ export default function CTABanner() {
               Need Hardware or Agricultural Utility Materials?
             </h2>
             <p className="text-green-100 text-lg mb-8 max-w-2xl mx-auto">
-              Get in touch with S.G. Enterprises for product enquiries, bulk
+              Get in touch with S.G. Agrotech for product enquiries, bulk
               requirements, and supply information.
             </p>
             <div className="flex flex-wrap justify-center gap-4">

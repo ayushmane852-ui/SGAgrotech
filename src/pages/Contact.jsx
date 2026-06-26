@@ -35,7 +35,7 @@ export default function Contact() {
     <>
       <SEO
         title="Contact Us"
-        description="Contact S.G. Enterprises for product enquiries, bulk orders, and supply information. Call, WhatsApp, or visit our shop."
+        description="Contact S.G. Agrotech for product enquiries, bulk orders, and supply information. Call, WhatsApp, or visit our shop."
       />
       <PageHero
         title="Contact Us"
@@ -155,7 +155,8 @@ export default function Contact() {
                 Send Enquiry
               </h2>
               <p className="text-gray-600 mb-6 text-sm">
-                Fill in the form below and we will get back to you shortly.
+                Fill in the form below — your enquiry will open in WhatsApp with all
+                details ready to send.
               </p>
               <ContactForm />
             </div>
@@ -165,15 +166,27 @@ export default function Contact() {
 
       <AnimatedSection className="pb-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="rounded-2xl overflow-hidden border border-border-gray h-80 bg-light-bg flex items-center justify-center">
-            <div className="text-center p-8">
-              <MapPin className="w-12 h-12 text-primary-green mx-auto mb-4" />
-              <h3 className="font-bold text-charcoal text-lg mb-2">Find Us Here</h3>
-              <p className="text-gray-600 text-sm mb-1">{siteConfig.address}</p>
-              <p className="text-gray-400 text-xs">
-                Map embed placeholder — replace with Google Maps iframe when address is confirmed
-              </p>
-            </div>
+          <div className="rounded-2xl overflow-hidden border border-border-gray h-80 md:h-96 bg-light-bg">
+            <iframe
+              title="S.G. Agrotech location map"
+              src={siteConfig.mapEmbedUrl}
+              className="w-full h-full"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
+          <div className="mt-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+            <p className="text-gray-600 text-sm">{siteConfig.address}</p>
+            <a
+              href={siteConfig.mapLinkUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary-green font-semibold text-sm hover:text-accent-orange transition-colors"
+            >
+              Open in Google Maps
+            </a>
           </div>
         </div>
       </AnimatedSection>

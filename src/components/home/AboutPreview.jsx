@@ -20,11 +20,11 @@ export default function AboutPreview() {
           <div>
             <SectionHeading
               subtitle="About Us"
-              title="About S.G. Enterprises"
+              title="About S.G. Agrotech"
               align="left"
             />
             <p className="text-gray-600 leading-relaxed mb-4">
-              S.G. Enterprises supplies a wide range of hardware and agricultural
+              S.G. Agrotech supplies a wide range of hardware and agricultural
               utility materials for farmers, shopkeepers, contractors, and general
               customers. Our focus is on quality products, dependable service, and
               practical solutions for day-to-day supply needs.

@@ -24,7 +24,7 @@ export default function FeaturedProducts() {
         <SectionHeading
           subtitle="Featured"
           title="Featured Products"
-          description="Popular hardware and agricultural utility products supplied by S.G. Enterprises."
+          description="Popular hardware and agricultural utility products supplied by S.G. Agrotech."
         />
 
         <div className="mb-12 bg-gradient-to-r from-primary-green/5 to-primary-blue/5 rounded-2xl p-6 border border-border-gray">

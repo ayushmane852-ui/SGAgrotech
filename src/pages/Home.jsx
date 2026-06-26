@@ -13,8 +13,8 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="S.G. Enterprises | Hardware & Agricultural Material Supplier"
-        description="S.G. Enterprises supplies garden pipes, tadpatri, nylon dori, PVC cocks, UPVC pipes, murghas bags, nets, and other hardware and agricultural utility materials."
+        title="S.G. Agrotech | Hardware & Agricultural Material Supplier"
+        description="S.G. Agrotech supplies garden pipes, tadpatri, nylon dori, PVC cocks, UPVC pipes, murghas bags, nets, and other hardware and agricultural utility materials."
       />
       <Hero />
       <TrustStrip />

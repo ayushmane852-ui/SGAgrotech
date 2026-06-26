@@ -29,7 +29,7 @@ export default function Footer() {
                   <span className="text-white font-bold text-sm">SG</span>
                 </div>
               )}
-              <span className="font-bold text-xl text-white">S.G. Enterprises</span>
+              <span className="font-bold text-xl text-white">S.G. Agrotech</span>
             </div>
             <p className="text-sm leading-relaxed text-gray-400 mb-4">
               A trusted supplier of hardware, agricultural utility, and material
@@ -119,7 +119,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-sm text-gray-500">
-            &copy; {new Date().getFullYear()} S.G. Enterprises. All rights reserved.
+            &copy; {new Date().getFullYear()} S.G. Agrotech. All rights reserved.
           </p>
           <p className="text-xs text-gray-600">
             Hardware & Agricultural Material Supplier

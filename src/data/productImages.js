@@ -1,3 +1,5 @@
+import { siteConfig } from "./siteConfig";
+
 const imageModules = import.meta.glob("../../Images/*.{png,jpg,jpeg,webp}", {
   eager: true,
 });
@@ -149,7 +151,7 @@ const imageDetails = {
   Halwa: {
     category: "Hardware",
     description:
-      "Halwa product supplied for relevant hardware and utility requirements. Contact S.G. Enterprises for availability, specifications, and bulk order enquiries.",
+      "Halwa product supplied for relevant hardware and utility requirements. Contact S.G. Agrotech for availability, specifications, and bulk order enquiries.",
     applications: ["Hardware supply", "Utility use", "Shop retail", "Bulk enquiry"],
   },
   "Black Reshim": {
@@ -279,7 +281,7 @@ const productImageEntries = allImages
     ...item,
     ...(imageDetails[item.name] || {
       category: "Hardware",
-      description: `${item.name} supplied by S.G. Enterprises. Contact us for availability, rates, and bulk supply enquiries.`,
+      description: `${item.name} supplied by ${siteConfig.name}. Contact us for availability, rates, and bulk supply enquiries.`,
       applications: ["Retail supply", "Bulk orders", "Shop enquiry", "General use"],
     }),
   }));

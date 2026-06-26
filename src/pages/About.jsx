@@ -11,10 +11,10 @@ export default function About() {
     <>
       <SEO
         title="About Us"
-        description="Learn about S.G. Enterprises — a trusted supplier of hardware and agricultural utility materials for farmers, shops, and local customers."
+        description="Learn about S.G. Agrotech — a trusted supplier of hardware and agricultural utility materials for farmers, shops, and local customers."
       />
       <PageHero
-        title="About S.G. Enterprises"
+        title="About S.G. Agrotech"
         subtitle="Your trusted partner for hardware and agricultural utility supply"
         breadcrumb="Home / About"
       />
@@ -22,7 +22,7 @@ export default function About() {
       <AnimatedSection className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-lg text-gray-600 leading-relaxed mb-6">
-            S.G. Enterprises is a hardware and agricultural utility material supplier
+            S.G. Agrotech is a hardware and agricultural utility material supplier
             serving farmers, garden users, hardware shops, contractors, and general
             customers. We focus on practical products that support daily farming,
             gardening, and hardware needs.

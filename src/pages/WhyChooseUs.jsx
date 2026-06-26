@@ -13,7 +13,7 @@ export default function WhyChooseUs() {
     <>
       <SEO
         title="Why Choose Us"
-        description="Discover why customers choose S.G. Enterprises for hardware and agricultural material supply — quality products, bulk support, and reliable service."
+        description="Discover why customers choose S.G. Agrotech for hardware and agricultural material supply — quality products, bulk support, and reliable service."
       />
       <PageHero
         title="Why Choose Us"
@@ -24,7 +24,7 @@ export default function WhyChooseUs() {
       <AnimatedSection className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-lg text-gray-600 leading-relaxed">
-            At S.G. Enterprises, we understand that customers need dependable products
+            At S.G. Agrotech, we understand that customers need dependable products
             for farming, gardening, and hardware work. That is why we focus on practical
             quality, wide product availability, and helpful enquiry support for every
             customer — from individual buyers to bulk traders.

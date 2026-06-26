@@ -25,13 +25,13 @@ export default function Hero() {
             </span>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-charcoal leading-tight mb-4">
               S.G.{" "}
-              <span className="text-primary-green">Enterprises</span>
+              <span className="text-primary-green">Agrotech</span>
             </h1>
             <p className="text-lg sm:text-xl text-primary-blue font-medium mb-4">
               Quality Pipes, Nets, Tarpaulin, Dori & Hardware Supply Solutions
             </p>
             <p className="text-gray-600 leading-relaxed mb-8 max-w-xl">
-              S.G. Enterprises is a trusted supplier of hardware, agricultural utility,
+              S.G. Agrotech is a trusted supplier of hardware, agricultural utility,
               and material handling products. We provide quality garden pipes, tarpaulin,
               nylon and reshim dori, PVC and UPVC items, murghas bags, nets, and other
               essential materials for farming, gardening, and hardware needs.
